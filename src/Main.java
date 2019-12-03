@@ -21,6 +21,8 @@ public class Main {
 		System.out.println("Testeb");
 		
 		System.out.println("ola");
+		
+		System.out.println("asdasdasd");
 	}
 
 }
