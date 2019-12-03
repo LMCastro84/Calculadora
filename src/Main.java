@@ -22,6 +22,9 @@ public class Main {
 		
 		System.out.println("Cenas...");
 
+		System.out.println("Testeb");
+		
+		System.out.println("ola");
 	}
 
 }
