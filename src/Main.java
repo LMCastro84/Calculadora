@@ -9,6 +9,12 @@ public class Main {
 		System.out.println("A bombar código!!!");
 		
 		System.out.println("Espetaculo!");
+		
+		int x;
+		int y;
+		int z;
+		
+		
 
 	}
 
