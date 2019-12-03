@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Main {
 
@@ -9,6 +10,8 @@ public class Main {
 		System.out.println("A bombar código!!!");
 		
 		System.out.println("Espetaculo!");
+		
+		Scanner in = new Scanner(System.in);
 
 	}
 
