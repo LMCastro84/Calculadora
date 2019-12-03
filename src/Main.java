@@ -15,6 +15,8 @@ public class Main {
 		int z;
 		
 		System.out.println("Coiso");
+		
+		System.out.println("Teste A");
 
 	}
 
