@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Main {
 
@@ -10,9 +11,15 @@ public class Main {
 		
 		System.out.println("Espetaculo!");
 		
+<<<<<<< HEAD
 		int x;
 		int y;
 		int z;
+=======
+		Scanner in = new Scanner(System.in);
+		
+		System.out.println("Calculadora");
+>>>>>>> refs/remotes/origin/master
 		
 		
 
