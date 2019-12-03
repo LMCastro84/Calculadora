@@ -12,6 +12,10 @@ public class Main {
 		System.out.println("Espetaculo!");
 		
 		Scanner in = new Scanner(System.in);
+		
+		System.out.println("Calculadora");
+		
+		
 
 	}
 
