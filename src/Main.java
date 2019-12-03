@@ -19,6 +19,8 @@ public class Main {
 		System.out.println("Teste A");
 
 		System.out.println("Testeb");
+		
+		System.out.println("ola");
 	}
 
 }
