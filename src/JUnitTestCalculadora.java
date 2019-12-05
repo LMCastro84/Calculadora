@@ -5,8 +5,9 @@ import org.junit.jupiter.api.Test;
 class JUnitTestCalculadora {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	public void testDivisao() {
+		assertThrows(ArithmeticException.class, () -> calc.divide(2, 0));
 	}
+
 
 }
