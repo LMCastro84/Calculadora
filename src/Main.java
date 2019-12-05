@@ -33,18 +33,18 @@ public class Main {
 				z = x / y;
 				System.out.println(x + " : " + y + " = " + z);
 				break;
-//			case 3:
-//				System.out.print("|-------Introduzir valor numérico:------|");
-//				y = in.nextInt();
-//				z = x + y;
-//				System.out.println(x + " + " + y + " = " + z);
-//				break;
-//			case 4:
-//				System.out.print("|-------Introduzir valor numérico:------|");
-//				y = in.nextInt();
-//				z = x - y;
-//				System.out.println(x + " - " + y + " = " + z);
-//				break;
+			case 3:
+				System.out.print("|-------Introduzir valor numérico:------|");
+				y = in.nextInt();
+				z = x + y;
+				System.out.println(x + " + " + y + " = " + z);
+				break;
+			case 4:
+				System.out.print("|-------Introduzir valor numérico:------|");
+				y = in.nextInt();
+				z = x - y;
+				System.out.println(x + " - " + y + " = " + z);
+				break;
 		}
 	}
 }
