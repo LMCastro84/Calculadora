@@ -11,6 +11,8 @@ public class Main {
 		double y;
 		double z;
 		int opcao;
+		boolean loop;
+		
 		Scanner in = new Scanner(System.in);
 
 		System.out.println();
@@ -21,46 +23,47 @@ public class Main {
 		System.out.println("|4 -            Subtrair                |");
 		System.out.println("|_______________________________________|");
 		
-		System.out.println("Escolha uma operação aritmética:_");
-		opcao = in.nextInt();
-		
-		switch (opcao){
-			case 1:
-				System.out.print("Introduzir um valor:_");
-				x = in.nextInt();
-				System.out.print("Introduzir outro valor:_");
-				y = in.nextInt();
-				z = x * y;
-				System.out.println(x + " x " + y + " = " + z);
-				break;
-			case 2:
-				System.out.print("Introduzir um valor:_");
-				x = in.nextInt();
-				System.out.print("Introduzir outro valor:_");
-				y = in.nextInt();
-				z = x / y;
-				System.out.println(x + " : " + y + " = " + z);
-				break;
-			case 3:
-				System.out.print("Introduzir um valor:_");
-				x = in.nextInt();
-				System.out.print("Introduzir outro valor:_");
-				y = in.nextInt();
-				z = x + y;
-				System.out.println(x + " + " + y + " = " + z);
-				break;
-			case 4:
-				System.out.print("Introduzir um valor:_");
-				x = in.nextInt();
-				System.out.print("Introduzir outro valor:_");
-				y = in.nextInt();
-				z = x - y;
-				System.out.println(x + " - " + y + " = " + z);
-				break;
-			default:
-				System.out.println("Seleccionou uma opção incorrecta. Tente novamente.");
-				// reiniciar a switch
-		}
+		do {
+			System.out.println("Escolha uma operação aritmética:_");
+			opcao = in.nextInt();
+			
+			switch (opcao) {
+				case 1:
+					System.out.print("Introduzir um valor:_");
+					x = in.nextInt();
+					System.out.print("Introduzir outro valor:_");
+					y = in.nextInt();
+					z = x * y;
+					System.out.println(x + " x " + y + " = " + z);
+					break;
+				case 2:
+					System.out.print("Introduzir um valor:_");
+					x = in.nextInt();
+					System.out.print("Introduzir outro valor:_");
+					y = in.nextInt();
+					z = x / y;
+					System.out.println(x + " : " + y + " = " + z);
+					break;
+				case 3:
+					System.out.print("Introduzir um valor:_");
+					x = in.nextInt();
+					System.out.print("Introduzir outro valor:_");
+					y = in.nextInt();
+					z = x + y;
+					System.out.println(x + " + " + y + " = " + z);
+					break;
+				case 4:
+					System.out.print("Introduzir um valor:_");
+					x = in.nextInt();
+					System.out.print("Introduzir outro valor:_");
+					y = in.nextInt();
+					z = x - y;
+					System.out.println(x + " - " + y + " = " + z);
+					break;
+				default:
+					System.out.println("Seleccionou uma opção incorrecta. Tente novamente.");
+			}
+		} while (loop = false);
 	}
 }
 				
