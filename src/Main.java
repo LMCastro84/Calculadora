@@ -45,6 +45,9 @@ public class Main {
 				z = x - y;
 				System.out.println(x + " - " + y + " = " + z);
 				break;
+			default:
+				System.out.println("|-------Introduziu um valor errado. Tente novamente.------|");
+				// reiniciar a switch
 		}
 	}
 }
