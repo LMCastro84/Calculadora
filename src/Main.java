@@ -11,7 +11,7 @@ public class Main {
 		double y;
 		double z;
 		int opcao;
-		boolean loop;
+		boolean loop = false;
 		
 		Scanner in = new Scanner(System.in);
 
@@ -35,6 +35,7 @@ public class Main {
 					y = in.nextInt();
 					z = x * y;
 					System.out.println(x + " x " + y + " = " + z);
+					loop = true;
 					break;
 				case 2:
 					System.out.print("Introduzir um valor:_");
@@ -43,6 +44,7 @@ public class Main {
 					y = in.nextInt();
 					z = x / y;
 					System.out.println(x + " : " + y + " = " + z);
+					loop = true;
 					break;
 				case 3:
 					System.out.print("Introduzir um valor:_");
@@ -51,6 +53,7 @@ public class Main {
 					y = in.nextInt();
 					z = x + y;
 					System.out.println(x + " + " + y + " = " + z);
+					loop = true;
 					break;
 				case 4:
 					System.out.print("Introduzir um valor:_");
@@ -59,11 +62,12 @@ public class Main {
 					y = in.nextInt();
 					z = x - y;
 					System.out.println(x + " - " + y + " = " + z);
+					loop = true;
 					break;
 				default:
 					System.out.println("Seleccionou uma opção incorrecta. Tente novamente.");
 			}
-		} while (loop = false);
+		} while (loop == false);
 	}
 }
 				
