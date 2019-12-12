@@ -68,6 +68,7 @@ public class Main {
 					System.out.println("Seleccionou uma opção incorrecta. Tente novamente.");
 			}
 		} while (loop == false);
+	
 	}
 }
 				
